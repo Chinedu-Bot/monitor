@@ -1,0 +1,14 @@
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/log-error", "dest": "/api/log-error.js" },
+    { "src": "/get-errors", "dest": "/api/get-errors.js" }
+  ]
+}
