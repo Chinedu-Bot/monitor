@@ -1,12 +1,12 @@
 
 import React from 'react';
 
-function Navbar() {
+const Navbar = () => {
     return (
-        <nav className="bg-gray-800 text-white p-4">
-            <h1 className="text-2xl font-bold">Error Monitoring Dashboard</h1>
+        <nav className="bg-blue-600 p-4 text-white">
+            <h1 className="text-lg font-bold">Error Monitoring Dashboard</h1>
         </nav>
     );
-}
+};
 
 export default Navbar;
